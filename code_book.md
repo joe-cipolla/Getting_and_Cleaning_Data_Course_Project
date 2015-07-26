@@ -19,6 +19,7 @@ averaged_dataset - tidy dataset with average of each variable for each activity 
 SOURCE DATA DESCRIPTION
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset - Version 1.0
+http://archive.ics.uci.edu/ml/machine-learning-databases/00240/UCI%20HAR%20Dataset.names
 
 Source data provided by:
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
