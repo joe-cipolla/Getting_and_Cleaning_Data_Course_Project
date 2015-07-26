@@ -14,7 +14,7 @@ subject_table - combination of subject_train and subject_test
 mean_or_std_columns - columns in features data with "mean" or "std" in the name
 complete_dataset - combination of x_table, y_table, and subject_table
 averaged_dataset - tidy dataset with average of each variable for each activity and each subject
-==================================================================
+
 
 SOURCE DATA DESCRIPTION
 ==================================================================
@@ -38,7 +38,7 @@ For each record there is data for:
 - A 561-feature vector with time and frequency domain variables. 
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
-==================================================================
+
 
 DATA TRANSFORMATIONS
 ==================================================================
