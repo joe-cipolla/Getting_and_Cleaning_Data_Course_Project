@@ -42,4 +42,14 @@ For each record there is data for:
 
 DATA TRANSFORMATIONS
 ==================================================================
-The run_analysis.R script combinds the 
+1. The test and training datasets ("x" data) are combined into a single table.
+2. The test and training variable labels are combined ("y" data) into one table.
+3. The subject data for test and training are combined into one table.
+4. All variables without "mean" or "std" in the name are removed from the x_table dataset.
+5. All values in the y_table are renamed with descriptive activity names from the activity_labels dataset.
+6. All variables in the x_table are renamed with variable names from the features dataset.
+7. All three tables (x_table, y_table, and subject_table) are combined together to make the complete_dataset table.
+
+
+
+
